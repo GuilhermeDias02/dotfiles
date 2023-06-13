@@ -1,0 +1,12 @@
+// @theme "/usr/share/rofi/themes/adwaita.rasi"
+@theme "/usr/share/rofi/themes/android_notification.rasi"
+
+element {
+
+  orientation: horizontal;
+
+
+  children: [ element-icon, element-text ];
+
+  spacing: 5px;
+}
