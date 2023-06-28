@@ -1,5 +1,5 @@
 [Configuration]
-FontName=DejaVu Sans Mono 14
+FontName=JetBrainsMono Nerd Font Medium 14
 MiscAlwaysShowTabs=FALSE
 MiscBell=FALSE
 MiscBellUrgent=FALSE
@@ -28,9 +28,18 @@ MiscNewTabAdjacent=FALSE
 MiscSearchDialogOpacity=100
 MiscShowUnsafePasteDialog=FALSE
 MiscRightClickAction=TERMINAL_RIGHT_CLICK_ACTION_CONTEXT_MENU
-ColorBackground=#24241f1f3131
 BackgroundDarkness=0.900000
-ColorUseTheme=TRUE
-ColorBoldIsBright=FALSE
+ColorForeground=#CDD6F4
+ColorBackground=#1E1E2E
+ColorCursor=#F5E0DC
+ColorPalette=#45475A;#F38BA8;#A6E3A1;#F9E2AF;#89B4FA;#F5C2E7;#94E2D5;#BAC2DE;#585B70;#F38BA8;#A6E3A1;#F9E2AF;#89B4FA;#F5C2E7;#94E2D5;#A6ADC8
+TabActivityColor=#FAB387
+ColorCursorForeground=#11111B
+ColorCursorUseDefault=FALSE
+ColorSelection=#CDD6F4
+ColorSelectionBackground=#585B70
+ColorSelectionUseDefault=FALSE
 BackgroundMode=TERMINAL_BACKGROUND_TRANSPARENT
+ScrollingUnlimited=TRUE
+ScrollingBar=TERMINAL_SCROLLBAR_NONE
 
