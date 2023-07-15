@@ -36,7 +36,8 @@
     },
     {
         "key": "enter",
-        "command": "acceptSelectedSuggestion"
+        "command": "acceptSelectedSuggestion",
+        "when": "suggestWidgetHasFocusedSuggestion"
     },
     {
         "key": "tab",
@@ -72,5 +73,13 @@
         "key": "ctrl+up",
         "command": "-selectPrevSuggestion",
         "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus || suggestWidgetVisible && textInputFocus && !suggestWidgetHasFocusedSuggestion"
+    },
+    {
+        "key": "ctrl+d",
+        "command": "workbench.action.closeActiveEditor"
+    },
+    {
+        "key": "ctrl+f4",
+        "command": "-workbench.action.closeActiveEditor"
     }
 ]
