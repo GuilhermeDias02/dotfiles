@@ -239,5 +239,8 @@
     "editor.formatOnSave": true,
     "editor.bracketPairColorization.enabled": false,
     "editor.renderWhitespace": "all",
-    "breadcrumbs.enabled": false
+    "breadcrumbs.enabled": false,
+    "workbench.list.smoothScrolling": true,
+    "editor.smoothScrolling": true,
+    "terminal.integrated.smoothScrolling": true
 }
